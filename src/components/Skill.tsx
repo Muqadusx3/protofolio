@@ -32,7 +32,7 @@ export default function Skills() {
     return (
       <div
         key={skill.name}
-        className="w-28 h-28 flex flex-col justify-center items-center text-center border border-blue-100 rounded-2xl bg-white shadow-lg hover:shadow-2xl transition duration-300 ease-in-out"
+        className="w-28 h-28 flex flex-col justify-center items-center text-center border border-blue-100 rounded-2xl bg-white shadow-lg hover:shadow-2xl transition duration-300 ease-in-out "
       >
         <div className="text-blue-400">
           {IconComponent ? <IconComponent size={40} /> : <span>❓</span>}
@@ -43,7 +43,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="min-h-screen px-6 bg-white text-black py-7">
+    <section id="skills" className="min-h-screen px-6 bg-white text-black py-7 scroll-mt-16">
       <h2 className="text-xl md:text-2xl font-bold text-center mb-5 text-blue-900">Skills</h2>
 
       <div className="md:ml-12 mb-12">

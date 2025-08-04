@@ -28,7 +28,7 @@ export default function Experience() {
   }, []);
 
   return (
-    <section id="experience" className="bg-white text-blue-900 px-4 py-5 md:px-20">
+    <section id="experience" className="bg-white text-blue-900 px-4 py-5 md:px-20 scroll-mt-16">
       <div className="text-center mb-8">
         <h2 className="text-xl md:text-3xl font-bold flex items-center justify-center gap-2 text-blue-900">
           Experience
