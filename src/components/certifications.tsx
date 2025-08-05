@@ -30,8 +30,7 @@ export default function Certifications() {
   return (
     <section id="certifications" className="py-5 bg-white scroll-mt-16">
       <div className="text-center mb-8">
-        <h2 className="text-xl md:text-3xl font-bold text-blue-900 flex items-center justify-center gap-2">
-          <FaCertificate className="text-blue-900" />
+        <h2 className="text-xl md:text-3xl font-bold text-gray-900 flex items-center justify-center gap-2">
           Certifications
         </h2>
       </div>
@@ -42,9 +41,9 @@ export default function Certifications() {
           return (
             <div
               key={index}
-              className="bg-white text-[#0f172a] border-l-4 border-purple-200 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex items-start gap-3"
+              className="bg-white text-[#0f172a] border-l-4 border-blue-200 p-5 rounded-xl shadow-md hover:shadow-lg transition duration-300 flex items-start gap-3"
             >
-              <div className="mt-1 text-purple-400 text-xl">
+              <div className="mt-1 text-blue-400 text-xl">
                 {Icon ? <Icon /> : <span>❓</span>}
               </div>
               <p className="text-sm font-medium leading-snug">{cert.name}</p>

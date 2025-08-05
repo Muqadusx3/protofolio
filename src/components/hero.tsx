@@ -23,17 +23,17 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="bg-[url('/pgpink.jpeg')] bg-center bg-no-repeat bg-cover md:min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-8 py-8 bg-white text-white mt-10 "
+      className="bg-[url('/bg.png')] bg-center bg-no-repeat md:min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-8 py-8 bg-white text-white mt-10 "
     >
       <p className="text-base md:text-lg text-gray-600">Hi there,</p>
 
-      <h1 className="text-3xl sm:text-4xl md:text-6xl font-ballet text-blue-900 mt-2">
+      <h1 className="text-3xl sm:text-4xl md:text-6xl font-ballet text-black mt-2">
         I am Muqadus Masood
       </h1>
 
-      <h2 className="text-lg sm:text-xl md:text-2xl text-blue-900 mt-4">
+      <h2 className="text-lg sm:text-xl md:text-2xl text-black mt-4">
         I am into{' '}
-        <span className="text-blue-800 dark:text-blue-500 font-semibold">
+        <span className="text-blue-900 font-semibold">
           <Typewriter
             words={['UI/UX', 'Web Development', 'Data Analytics']}
             loop={true}
@@ -46,7 +46,7 @@ export default function Hero() {
         </span>
       </h2>
 
-      <p className="mt-6 max-w-xl sm:max-w-2xl text-sm sm:text-base md:text-lg text-blue-900 leading-relaxed px-2">
+      <p className="mt-6 max-w-xl sm:max-w-2xl text-sm sm:text-base md:text-lg text-black leading-relaxed px-2">
         {heroData?.intro || 'Loading...'}
       </p>
 
@@ -54,7 +54,7 @@ export default function Hero() {
         <a
           href={heroData.resumeUrl}
           download
-          className="mt-8 inline-block bg-gradient-to-r from-blue-900 to-purple-600 text-white px-4 py-1 text-sm md:text-lg  rounded-full transition duration-300 hover:scale-105"
+          className="mt-8 inline-block bg-gradient-to-bl from-blue-400 to-blue-800 text-white px-4 py-1 text-sm md:text-lg  rounded-full transition duration-300 hover:scale-105 hover:bg-gradient-to-bl hover:from-blue-500 hover:to-green-400"
         >
           Download Resume
         </a>

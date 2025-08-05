@@ -24,14 +24,14 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-10 bg-gradient-to-br from-[#fdf6e3] to-[#eaddff] text-gray-800 scroll-mt-16"
+      className="py-10 bg-gradient-to-bl from-blue-200 to-green-50 text-gray-800 scroll-mt-16"
     >
       <div className="max-w-6xl mx-auto px-6">
        
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="text-center md:text-right space-y-6">
-             <h2 className="text-4xl font-bold text-center text-blue-400 mb-4">Let’s Connect</h2>
+             <h2 className="text-4xl font-bold text-center text-gray-700 mb-4">Let’s Connect</h2>
         <p className="text-lg text-center text-gray-700 mb-12">
           Thank you for visiting my portfolio. Feel free to connect with me on social platforms!
         </p>
@@ -46,18 +46,18 @@ export default function Contact() {
           </div>
 
           <div className="text-center md:text-left space-y-6">
-            <h3 className="text-2xl font-semibold text-center text-purple-600">Contact Info</h3>
+            <h3 className="text-2xl font-semibold text-center text-gray-600">Contact Info</h3>
             <div className="space-y-3 text-md text-gray-800 md:ml-42">
               <div className="flex justify-center md:justify-start items-center gap-3">
-                <FaPhoneAlt className="text-yellow-600" />
+                <FaPhoneAlt className="text-green-600" />
                 <span>{contact.phone}</span>
               </div>
               <div className="flex justify-center md:justify-start items-center gap-3">
-                <FaEnvelope className="text-yellow-600" />
+                <FaEnvelope className="text-green-600" />
                 <span>{contact.email}</span>
               </div>
               <div className="flex justify-center md:justify-start items-center gap-3">
-                <FaMapMarkerAlt className="text-yellow-600" />
+                <FaMapMarkerAlt className="text-green-600" />
                 <span>{contact.location}</span>
               </div>
             </div>

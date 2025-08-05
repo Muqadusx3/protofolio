@@ -37,7 +37,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-8 bg-white text-white scroll-mt-16">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-xl md:text-3xl font-bold text-center mb-4 text-blue-900">Projects</h2>
+        <h2 className="text-xl md:text-3xl font-bold text-center mb-4 text-gray-900">Projects</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((proj, index) => (
@@ -45,13 +45,13 @@ export default function Projects() {
               key={index}
               className="bg-white border p-6 rounded-2xl shadow-xl hover:shadow-blue-500/20 hover:scale-[1.03] transition-all duration-300"
             >
-              <h3 className="text-md md:text-xl font-bold text-blue-400 mb-2">{proj.title}</h3>
+              <h3 className="text-md md:text-xl font-bold text-gray-500 mb-2">{proj.title}</h3>
               <p className="text-sm text-gray-600 mb-4">{proj.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {proj.tech.map((tech, idx) => (
                   <span
                     key={idx}
-                    className="bg-gradient-to-r from-blue-20 to-blue-100 text-sm text-black px-3 py-1 rounded-full font-medium md:font-semibold"
+                    className="bg-gradient-to-r from-green-50 to-blue-100 text-sm text-black px-3 py-1 rounded-full font-medium "
                   >
                     {tech}
                   </span>
@@ -73,7 +73,7 @@ export default function Projects() {
                     href={proj.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-sm text-purple-400 hover:text-yellow-400 transition-colors"
+                    className="flex items-center text-sm text-green-400 hover:text-yellow-400 transition-colors"
                   >
                     GitHub <FaGithub className="ml-1" />
                   </a>

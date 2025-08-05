@@ -10,13 +10,11 @@ import { Certificate } from 'crypto';
 export default function HomePage() {
   return (
     <main className=" min-h-screen">
-      
       <Hero/>
-  
   <Experience/>
   <Skills/>
-  <Certifications/>
   <Projects/>
+  <Certifications/>
   <Contact/>
     </main>
   );
