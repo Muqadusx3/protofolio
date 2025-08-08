@@ -35,7 +35,7 @@ export default function Hero() {
         I am into{' '}
         <span className="text-blue-900 font-semibold">
           <Typewriter
-            words={['UI/UX', 'Web Development', 'Data Analytics']}
+            words={[ 'Web Development', 'Data Analytics']}
             loop={true}
             cursor
             cursorStyle="|"
